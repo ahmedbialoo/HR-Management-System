@@ -1,0 +1,98 @@
+﻿@model User;
+@{
+    ViewData["Title"] = "userdetails";
+     var val = @ViewBag.validGroup;
+
+}
+
+
+      <div class="main-panel">
+        <div class="main-content">
+          <div class="content-wrapper">
+            <div class="container-fluid"><!-- Zero configuration table -->
+                <section id="configuration">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title-wrap bar-success">
+                                        <h4 class="card-title">Edit User </h4>
+                                     </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="px-3">
+                                        <form asp-action="edituser" asp-controller="Admin" class="form form-horizontal" method="post">
+                                            <div class="form-body">
+                                                @Html.HiddenFor(n=>n.User_Id)
+                                                @*-------------User Fname------------*@
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 label-control" for="projectinput1">First Name: </label>
+                                                    <div class="col-md-9">
+                                                        <input asp-for="User_Fname" type="text" id="projectinput1" class="form-control" disabled >
+                                                        <span asp-validation-for="User_Fname"></span>
+                                                    </div>
+                                                </div>
+                                                @*-------------User name ------------*@
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 label-control" for="projectinput1">User Name : </label>
+                                                    <div class="col-md-9">
+                                                        <input asp-for="Username" type="text" id="projectinput1" class="form-control"  disabled>
+										                <span asp-validation-for="Username"></span>
+                                                    </div>
+                                                </div>
+                                                @*-------------Password ------------*@
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 label-control" for="projectinput1">Password: </label>
+                                                    <div class="col-md-9">
+                                                        <input asp-for="Password" type="password" id="projectinput1" class="form-control" disabled>
+                                                        <span asp-validation-for="Password"></span>
+                                                    </div>
+                                                </div>
+                                                @*-------------Email ------------*@
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 label-control" for="projectinput1">Email : </label>
+                                                    <div class="col-md-9">
+                                                        <input asp-for="User_Email" type="text" id="projectinput1" class="form-control" disabled >
+                                                        <span asp-validation-for="User_Email"></span>
+                                                    </div>
+                                                </div>
+                                                @*-------------Group ------------*@
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 label-control" for="projectinput7">Group Name : </label>
+                                                    <div class="col-md-9">
+                                                        <select asp-for="GroupId" asp-items="ViewBag.group" type="text" id="projectinput1" class="form-control" disabled></select>
+										                <span asp-validation-for="GroupId"></span>
+                                                    </div>
+                                                </div>
+  
+                                            </div>
+
+                                            <div class="form-actions">
+                                                @if (val.User_Edit)
+                                                {
+                                                    <button type="submit" asp-action="edituser"  asp-route-id="User_Id" class="btn btn-success">
+                                                        <i class="icon-note"></i> Edit Profile
+                                                </button>}
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer footer-static footer-light">
+          <p class="clearfix text-muted text-center px-2"><span>Copyright  &copy; 2021 <a href="#" id="pixinventLink" target="_blank" class="text-bold-800 primary darken-2">Pioneer solutions </a>, All rights reserved. </span></p>
+        </footer>
+
+      </div>
+   
+
+

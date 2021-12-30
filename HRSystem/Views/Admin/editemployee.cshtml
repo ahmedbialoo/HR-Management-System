@@ -1,0 +1,287 @@
+﻿
+
+@model Employee;
+
+
+@{
+    ViewData["Title"] = "editemployee";
+}
+
+
+
+
+  
+    <div class="wrapper">
+
+     
+      <div class="main-panel">
+        <div class="main-content">
+          <div class="content-wrapper">
+            <div class="container-fluid">
+<section id="horizontal-form-layouts">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2 class="content-header">Add Employees Form</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<div class="card-title-wrap bar-success">
+						<h4 class="card-title" id="horz-layout-basic">Employee Information</h4>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="px-3">
+						 <form class="form form-horizontal" asp-action="editemployee" asp-controller="Admin" method="post"> 
+
+							                                                 @Html.HiddenFor(n=>n.Emp_Ssn)
+
+									<div class="form-body">
+								<h4 class="form-section">
+									<i class="icon-user"></i> Personal Details</h4>
+								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput1"> Name: </label>
+									<div class="col-md-9">				
+										<input asp-for="Emp_FullName" type="text" id="projectinput1" class="form-control"/>
+										<span asp-validation-for="Emp_FullName"></span>
+									</div>
+								</div>
+
+                                		<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput2">Address: </label>
+									<div class="col-md-9">
+										<input asp-for="Emp_Address" type="text" id="projectinput2" class="form-control" />
+										<span asp-validation-for="Emp_Address"></span>
+									</div>
+								</div>
+                                <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput3">E-mail: </label>
+									<div class="col-md-9">
+										<input asp-for="Emp_Email" type="text" id="projectinput3" class="form-control" />
+										<span asp-validation-for="Emp_Email"></span>
+									</div>
+								</div>
+                                <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput4">Contact Number: </label>
+									<div class="col-md-9">
+										<input asp-for="Phone" type="tel" id="projectinput4" class="form-control" />
+										<span asp-validation-for="Phone"></span>
+									</div>
+								</div>
+                                					
+								
+								 <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput9">Gender: </label>
+									<div class="col-md-9">
+										
+										
+										<select asp-for="Emp_Gender"  id="projectinput9" class="form-control" />
+											<option>Male</option>
+											<option>Female</option>
+										</select>
+										<span asp-validation-for="Emp_Gender"></span>
+									</div>
+								</div>
+
+								<div class="form-group row">
+                  <label class="col-md-3 label-control" for="projectinput9">Birth Date: </label>
+                  <div class="col-md-9">
+                    <div class="position-relative has-icon-left">
+                      <input asp-for="BirthDate"  type="date" id="timesheetinput3" class="form-control" />
+                      <span asp-validation-for="BirthDate"></span>
+					  <div class="form-control-position">
+                        <i class="ft-message-square"></i>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+					      <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput11">National ID: </label>
+									<div class="col-md-9">
+										<input asp-for="Emp_NationalID" type="text" id="projectinput11" class="form-control" />
+									   <span asp-validation-for="Emp_NationalID"></span>
+									</div>
+								</div>
+                <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput12">Nationality: </label>
+									<div class="col-md-9">
+										<input asp-for="Nationality"  type="text" id="projectinput12" class="form-control" />
+										<span asp-validation-for="Nationality"></span>
+
+									</div>
+								</div>
+									
+
+@*								----------------------------Business Details ----------------------------------------                *@
+					<div>	<h4 class="form-section">
+									<i class="icon-book-open"></i>Business Details</h4>
+                  <div class="form-group row">
+                  <label class="col-md-3 label-control" for="projectinput9">Hire Date: </label>
+                  <div class="col-md-9">
+                    <div class="position-relative has-icon-left">
+                      <input asp-for="HireDate"  type="date" id="timesheetinput3" class="form-control" />
+                      <span asp-validation-for="HireDate"></span>
+					  <div class="form-control-position">
+                        <i class="ft-message-square"></i>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                                 
+              <div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput9">Department Name: </label>
+									<div class="col-md-9">
+										<input  asp-for="DeptName" type="text"  id="projectinput01" class="form-control" />
+										<span asp-validation-for="DeptName"></span>
+									</div>
+								</div>
+                                             
+                        
+
+                                								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Salary: </label>
+									<div class="col-md-9">
+										 
+											<input asp-for="Salary" type="number" id="projectinput7"  class="form-control" />
+												<span asp-validation-for="Salary"></span>
+									
+									</div>
+								</div>
+                                
+								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">OverTime/Hour: </label>
+									<div class="col-md-9">
+										 
+											<input asp-for="overtime" type="number" id="projectinput7"  class="form-control" />
+												<span asp-validation-for="overtime"></span>
+									
+									</div>
+								</div>
+                                
+															<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Discount / Hour </label>
+									<div class="col-md-9">
+										 
+											<input asp-for="discount" type="number" id="projectinput7"  class="form-control" />
+												<span asp-validation-for="discount"></span>
+									
+									</div>
+								</div>
+
+
+						
+                                								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Shift Start Time: </label>
+									<div class="col-md-9">
+										 
+											<input asp-for="Start_Time" type="time" id="projectinput7"  class="form-control" />
+												<span asp-validation-for="Start_Time"></span>
+									
+									</div>
+								</div>
+
+								
+                                								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Shift End Time: </label>
+									<div class="col-md-9">
+										 
+											<input asp-for="End_Time" type="time" id="projectinput7"  class="form-control" />
+												<span asp-validation-for="End_Time"></span>
+									
+									</div>
+								</div>
+                                
+           
+                    								<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Weekly Vacation 1: </label>
+									<div class="col-md-9">
+										 
+											<Select asp-for="Vac1" type="text" id="projectinput7"  class="form-control" >
+												<option>Saturday</option>
+												<option>Sunday</option>
+												<option>Monday</option>
+												<option>Tuesday</option>
+												<option>Wednesday</option>
+												<option selected >Thursday</option>
+												<option>Friday</option>
+											</select>
+												<span asp-validation-for="Vac1"></span>
+									
+									</div>
+								</div>
+							
+														<div class="form-group row">
+									<label class="col-md-3 label-control" for="projectinput7">Weekly Vacation2: </label>
+									<div class="col-md-9">
+										 
+											<Select asp-for="Vac2" type="text" id="projectinput7"  class="form-control" >
+												<option>Saturday</option>
+												<option>Sunday</option>
+												<option>Monday</option>
+												<option>Tuesday</option>
+												<option>Wednesday</option>
+												<option>Thursday</option>
+												<option selected>Friday</option>
+											</select>
+												<span asp-validation-for="Vac2"></span>
+									
+									</div>
+								</div>
+							
+
+
+
+
+
+
+
+                                
+							<div class="form-actions">
+								<button type="button" class="btn btn-danger mr-1" onclick="form.reset(this)">
+									<i class="icon-trash"></i> Cancel
+								</button>
+								<button type="submit" class="btn btn-success">
+									<i class="icon-note"></i> Save Changes
+								</button>
+							</div>
+
+						
+						
+
+
+
+
+						</form>
+
+
+					
+
+
+							
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+<!-- // Basic form layout section end -->
+            </div>
+          </div>
+        </div>
+			
+
+           <footer class="footer footer-static footer-light">
+          <p class="clearfix text-muted text-center px-2"><span>Copyright  © 2021 <a href="#" id="pixinventLink" target="_blank" class="text-bold-800 primary darken-2">Pioneer solutions </a>, All rights reserved. </span></p>
+        </footer>
+
+      </div>
+	
+    
+   
+

@@ -1,0 +1,917 @@
+﻿++Solution 'HRSystem' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:HRSystem.sln
+++HRSystem
+i:{00000000-0000-0000-0000-000000000000}:HRSystem
+++Connected Services 
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1638
+++Dependencies
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1637
+++Properties
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\properties\
+++launchSettings.json
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\properties\launchsettings.json
+++wwwroot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\
+++Controllers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\controllers\
+++AdminController.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\controllers\admincontroller.cs
+++Migrations
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\migrations\
+++20211206150412_ss.cs
+++20211206152555_hgg.cs
+++20211206152953_jfjf.cs
+++20211206154822_ac.cs
+++20211206155547_asca.cs
+++20211206160345_avdw.cs
+++HR_SystemContextModelSnapshot.cs
+++Models
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\
+++AnnualVac.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\annualvac.cs
+++Attendance.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\attendance.cs
+++Class.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\class.cs
+++Employee.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\employee.cs
+++ErrorViewModel.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\errorviewmodel.cs
+++Group.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\group.cs
+++HR_SystemContext.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\hr_systemcontext.cs
+++User.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\user.cs
+++Views
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\
+++Admin
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\
+++addemployee.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\addemployee.cshtml
+++addgroup.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\addgroup.cshtml
+++adduser.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\adduser.cshtml
+++attendancedeparture.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\attendancedeparture.cshtml
+++employees.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\employees.cshtml
+++generalsettings.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\generalsettings.cshtml
+++index.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\index.cshtml
+++invoice.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\invoice.cshtml
+++Login.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\login.cshtml
+++permissions.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\permissions.cshtml
+++salaryreport.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\salaryreport.cshtml
+++users.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\admin\users.cshtml
+++Shared
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\shared\
+++_Layout.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\shared\_layout.cshtml
+++_Layout.cshtml.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\shared\_layout.cshtml.css
+++_ValidationScriptsPartial.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\views\_viewstart.cshtml
+++appsettings.Development.json
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\appsettings.development.json
+++appsettings.json
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\appsettings.json
+++Program.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\program.cs
+++No service dependencies discovered
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1639
+++Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:analyzers
+++Frameworks
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:frameworks
+++Packages
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:packages
+++css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\css\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\font-awesome\css\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\
+++fonts
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\fonts\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\meteocons\fonts\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\fonts\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\
+++img
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\img\
+++js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\
+++vendors
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\
+++favicon.ico
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\favicon.ico
+++20211206150412_ss.Designer.cs
+++20211206152555_hgg.Designer.cs
+++20211206152953_jfjf.Designer.cs
+++20211206154822_ac.Designer.cs
+++20211206155547_asca.Designer.cs
+++20211206160345_avdw.Designer.cs
+++MessagePackAnalyzer
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\microsoft.netcore.app
+++Microsoft.AspNet.Mvc (5.2.7)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1652
+++Microsoft.AspNetCore.Session (2.2.0)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1653
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1651
+++Microsoft.EntityFrameworkCore.SqlServer.Design (1.1.6)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1650
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1655
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1656
+++ReflectionIT.Mvc.Paging (6.0.1)
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:>1683
+++app.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\css\app.css
+++site.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\css\site.css
+++feather
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\
+++font-awesome
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\font-awesome\
+++meteocons
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\meteocons\
+++simple-line-icons
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\
+++flags
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\flags\
+++gallery
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\
+++ico
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\
+++pages
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\pages\
+++photos
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\
+++portfolio
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\
+++portrait
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\
+++sidebar-bg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\
+++width-600
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\width-600\
+++logo.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\logo.png
+++pattern_h.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\pattern_h.png
+++slide.PNG
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\slide.png
+++slide2.PNG
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\slide2.png
+++slide3.PNG
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\slide3.png
+++data-tables
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\
+++app-sidebar.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\app-sidebar.js
+++chartist.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\chartist.js
+++chartjs.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\chartjs.js
+++chat.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\chat.js
+++coming-soon.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\coming-soon.js
+++components-modal.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\components-modal.min.js
+++customizer.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\customizer.js
+++dashboard-analytics.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\dashboard-analytics.js
+++dashboard-ecommerce.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\dashboard-ecommerce.js
+++draggable.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\draggable.js
+++dropzone.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\dropzone.js
+++form-typeahead.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\form-typeahead.js
+++form-validation.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\form-validation.js
+++fullcalendar.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\fullcalendar.js
+++horizontal-timeline.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\horizontal-timeline.min.js
+++maps.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\maps.js
+++notification-sidebar.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\notification-sidebar.js
+++pick-a-datetime.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\pick-a-datetime.js
+++popover.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\popover.js
+++quill.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\quill.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\quill.min.js
+++rating.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\rating.js
+++site.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\site.js
+++sweet-alerts.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\sweet-alerts.js
+++switch.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\switch.min.js
+++tagging.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\tagging.js
+++taskboard.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\taskboard.js
+++toastr.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\toastr.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\toastr.min.js
+++tooltip.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\tooltip.js
+++tour.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\tour.min.js
+++wizard-steps.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\wizard-steps.js
+++bootstrap
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\
+++jquery
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\
+++jquery-validation
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation-unobtrusive\
+++style.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\style.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\meteocons\style.min.css
+++style.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\style.css
+++br.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\flags\br.png
+++de.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\flags\de.png
+++es.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\flags\es.png
+++us.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\flags\us.png
+++1.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\1.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\1.jpg
+++10.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\10.jpg
+++11.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\11.jpg
+++12.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\12.jpg
+++14.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\14.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\14.jpg
+++16.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\16.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\16.jpg
+++17.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\17.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\17.jpg
+++18.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\18.jpg
+++19.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\19.jpg
+++2.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\2.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\2.jpg
+++20.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\20.jpg
+++21.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\21.jpg
+++22.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\22.jpg
+++23.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\23.jpg
+++24.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\24.jpg
+++25.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\25.jpg
+++26.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\26.jpg
+++27.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\27.jpg
+++28.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\28.jpg
+++29.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\29.jpg
+++3.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\3.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\3.jpg
+++30.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\30.jpg
+++31.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\31.jpg
+++32.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\32.jpg
+++33.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\33.jpg
+++4.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\4.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\4.jpg
+++5.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\5.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\5.jpg
+++6.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\6.jpg
+++7.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\7.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\7.jpg
+++8.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\8.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\8.jpg
+++9.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\gallery\9.jpg
+++apple-icon-120.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\apple-icon-120.html
+++apple-icon-152.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\apple-icon-152.html
+++apple-icon-60.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\apple-icon-60.html
+++apple-icon-76.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\apple-icon-76.html
+++favicon-32.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\ico\favicon-32.png
+++sativa.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\pages\sativa.png
+++signature-scan.png
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\pages\signature-scan.png
+++01.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\01.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\01.jpg
+++02.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\02.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\02.jpg
+++03.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\03.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\03.jpg
+++04.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\04.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\04.jpg
+++05.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\05.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\05.jpg
+++15.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\photos\15.jpg
+++portfolio-1.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-1.jpg
+++portfolio-2.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-2.jpg
+++portfolio-3.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-3.jpg
+++portfolio-4.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-4.jpg
+++portfolio-5.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-5.jpg
+++portfolio-6.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portfolio\portfolio-6.jpg
+++medium
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\medium\
+++small
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\
+++06.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\06.jpg
+++07.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\07.jpg
+++08.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\sidebar-bg\08.jpg
+++portfolio-14.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\width-600\portfolio-14.jpg
+++datatable-advanced.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\datatable-advanced.js
+++datatable-api.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\datatable-api.js
+++datatable-basic.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\datatable-basic.js
+++datatables-sources.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\datatables-sources.js
+++datatable-styling.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\js\data-tables\datatable-styling.js
+++dist
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\dist\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\license.txt
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++pickadate
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\pickadate\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pickadate\
+++raty
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\
+++tables
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\tables\
+++chartist.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\chartist.min.css
+++dragula.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\dragula.min.css
+++dropzone.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\dropzone.min.css
+++fullcalendar.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fullcalendar.min.css
+++hopscotch.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\hopscotch.css
+++katex.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\katex.min.css
+++monokai-sublime.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\monokai-sublime.min.css
+++perfect-scrollbar.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\perfect-scrollbar.min.css
+++prism.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\prism.min.css
+++quill.bubble.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\quill.bubble.css
+++quill.snow.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\quill.snow.css
+++sweetalert2.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\sweetalert2.min.css
+++switchery.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\switchery.min.css
+++tagging.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\tagging.css
+++toastr.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\toastr.css
+++wizard.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\wizard.css
+++tour
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\img\tour\
+++core
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\core\
+++datatable
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\tables\datatable\
+++pace
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pace\
+++typeahead
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\typeahead\
+++chart.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\chart.min.js
+++chartist.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\chartist.min.js
+++dragula.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\dragula.min.js
+++dropzone.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\dropzone.min.js
+++fullcalendar.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\fullcalendar.min.js
+++gmaps.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\gmaps.min.js
+++highlight.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\highlight.min.js
+++hopscotch.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\hopscotch.min.js
+++jqBootstrapValidation.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jqbootstrapvalidation.js
+++jquery.countdown.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery.countdown.min.js
+++jquery.matchHeight-min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery.matchheight-min.js
+++jquery.raty.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery.raty.js
+++jquery.steps.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery.steps.min.js
+++jquery.validate.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery.validate.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++jquery-ui.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\jquery-ui.min.js
+++katex.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\katex.min.js
+++moment.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\moment.min.js
+++perfect-scrollbar.jquery.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\perfect-scrollbar.jquery.min.js
+++prism.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\prism.min.js
+++screenfull.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\screenfull.min.js
+++sweetalert2.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\sweetalert2.min.js
+++switchery.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\switchery.min.js
+++tagging.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\tagging.min.js
+++feather2467.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\fonts\feather2467.eot
+++feather2467.svg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\fonts\feather2467.svg
+++feather2467.ttf
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\fonts\feather2467.ttf
+++feather2467.woff
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\feather\fonts\feather2467.woff
+++font-awesome.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\font-awesome\css\font-awesome.min.css
+++meteoconsddea.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\meteocons\fonts\meteoconsddea.eot
+++meteoconsddea.ttf
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\meteocons\fonts\meteoconsddea.ttf
+++Simple-Line-Icons.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\fonts\simple-line-icons.eot
+++Simple-Line-Icons.svg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\fonts\simple-line-icons.svg
+++Simple-Line-Icons.ttf
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\fonts\simple-line-icons.ttf
+++Simple-Line-Iconsd41d.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\fonts\simple-line-icons\fonts\simple-line-iconsd41d.eot
+++avatar-m-9.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\medium\avatar-m-9.jpg
+++avatar-s-1.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-1.jpg
+++avatar-s-11.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-11.jpg
+++avatar-s-12.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-12.jpg
+++avatar-s-14.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-14.jpg
+++avatar-s-15.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-15.jpg
+++avatar-s-16.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-16.jpg
+++avatar-s-17.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-17.jpg
+++avatar-s-18.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-18.jpg
+++avatar-s-19.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-19.jpg
+++avatar-s-20.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-20.jpg
+++avatar-s-21.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-21.jpg
+++avatar-s-22.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-22.jpg
+++avatar-s-23.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-23.jpg
+++avatar-s-24.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-24.jpg
+++avatar-s-27.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-27.jpg
+++avatar-s-3.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-3.jpg
+++avatar-s-4.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-4.jpg
+++avatar-s-5.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-5.jpg
+++avatar-s-6.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-6.jpg
+++avatar-s-7.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-7.jpg
+++avatar-s-8.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-8.jpg
+++avatar-s-9.jpg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\img\portrait\small\avatar-s-9.jpg
+++jquery.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\dist\jquery.js
+++jquery.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.min.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery\dist\jquery.min.map
+++additional-methods.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++additional-methods.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++KaTeX_AMS-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_ams-regular.html
+++KaTeX_AMS-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_ams-regular-2.html
+++KaTeX_AMS-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_ams-regular-3.html
+++KaTeX_AMS-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_ams-regular-4.html
+++KaTeX_Caligraphic-Bold.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-bold.html
+++KaTeX_Caligraphic-Bold-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-bold-2.html
+++KaTeX_Caligraphic-Bold-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-bold-3.html
+++KaTeX_Caligraphic-Bold-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-bold-4.html
+++KaTeX_Caligraphic-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-regular.html
+++KaTeX_Caligraphic-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-regular-2.html
+++KaTeX_Caligraphic-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-regular-3.html
+++KaTeX_Caligraphic-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_caligraphic-regular-4.html
+++KaTeX_Fraktur-Bold.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-bold.html
+++KaTeX_Fraktur-Bold-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-bold-2.html
+++KaTeX_Fraktur-Bold-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-bold-3.html
+++KaTeX_Fraktur-Bold-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-bold-4.html
+++KaTeX_Fraktur-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-regular.html
+++KaTeX_Fraktur-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-regular-2.html
+++KaTeX_Fraktur-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-regular-3.html
+++KaTeX_Fraktur-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_fraktur-regular-4.html
+++KaTeX_Main-Bold.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-bold.html
+++KaTeX_Main-Bold-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-bold-2.html
+++KaTeX_Main-Bold-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-bold-3.html
+++KaTeX_Main-Bold-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-bold-4.html
+++KaTeX_Main-Italic.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-italic.html
+++KaTeX_Main-Italic-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-italic-2.html
+++KaTeX_Main-Italic-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-italic-3.html
+++KaTeX_Main-Italic-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-italic-4.html
+++KaTeX_Main-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-regular.html
+++KaTeX_Main-Regular.woff2
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-regular.woff2
+++KaTeX_Main-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-regular-2.html
+++KaTeX_Main-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_main-regular-3.html
+++KaTeX_Math-Italic.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_math-italic.html
+++KaTeX_Math-Italic.woff2
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_math-italic.woff2
+++KaTeX_Math-Italic-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_math-italic-2.html
+++KaTeX_Math-Italic-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_math-italic-3.html
+++KaTeX_SansSerif-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_sansserif-regular.html
+++KaTeX_SansSerif-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_sansserif-regular-2.html
+++KaTeX_SansSerif-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_sansserif-regular-3.html
+++KaTeX_SansSerif-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_sansserif-regular-4.html
+++KaTeX_Script-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_script-regular.html
+++KaTeX_Script-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_script-regular-2.html
+++KaTeX_Script-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_script-regular-3.html
+++KaTeX_Script-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_script-regular-4.html
+++KaTeX_Size1-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size1-regular.html
+++KaTeX_Size1-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size1-regular-2.html
+++KaTeX_Size1-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size1-regular-3.html
+++KaTeX_Size1-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size1-regular-4.html
+++KaTeX_Size2-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size2-regular.html
+++KaTeX_Size2-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size2-regular-2.html
+++KaTeX_Size2-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size2-regular-3.html
+++KaTeX_Size2-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size2-regular-4.html
+++KaTeX_Size3-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size3-regular.html
+++KaTeX_Size3-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size3-regular-2.html
+++KaTeX_Size3-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size3-regular-3.html
+++KaTeX_Size3-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size3-regular-4.html
+++KaTeX_Size4-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size4-regular.html
+++KaTeX_Size4-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size4-regular-2.html
+++KaTeX_Size4-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size4-regular-3.html
+++KaTeX_Size4-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_size4-regular-4.html
+++KaTeX_Typewriter-Regular.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_typewriter-regular.html
+++KaTeX_Typewriter-Regular-2.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_typewriter-regular-2.html
+++KaTeX_Typewriter-Regular-3.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_typewriter-regular-3.html
+++KaTeX_Typewriter-Regular-4.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\fonts\katex_typewriter-regular-4.html
+++pickadate.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\pickadate\pickadate.css
+++jquery.raty.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\jquery.raty.css
+++cross.html
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\img\tour\cross.html
+++bootstrap.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\core\bootstrap.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery-3.3.1.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\core\jquery-3.3.1.min.js
+++popper.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\core\popper.min.js
+++buttons.flash.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\buttons.flash.min.js
+++buttons.html5.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\buttons.html5.min.js
+++buttons.print.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\buttons.print.min.js
+++dataTables.buttons.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\datatables.buttons.min.js
+++datatables.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\datatables.min.js
+++dataTables.responsive.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\datatables.responsive.min.js
+++jszip.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\jszip.min.js
+++pdfmake.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\pdfmake.min.js
+++vfs_fonts.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\datatable\vfs_fonts.js
+++pace.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pace\pace.min.js
+++legacy.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pickadate\legacy.js
+++picker.date.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pickadate\picker.date.js
+++picker.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pickadate\picker.js
+++picker.time.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\pickadate\picker.time.js
+++bloodhound.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\typeahead\bloodhound.min.js
+++handlebars.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\typeahead\handlebars.js
+++typeahead.bundle.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\js\typeahead\typeahead.bundle.min.js
+++bootstrap.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js.map
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++raty.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\raty.eot
+++raty.svg
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\raty.svg
+++raty.ttf
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\raty.ttf
+++raty.woff
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\raty.woff
+++ratyd41d.eot
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\raty\fonts\ratyd41d.eot
+++datatables.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\tables\datatable\datatables.min.css
+++responsive.dataTables.min.css
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\wwwroot\vendors\css\tables\datatable\responsive.datatables.min.css
+++20211208190230_afwrc.cs
+++20211208190230_afwrc.Designer.cs
+++20211208190735_fcv.cs
+++20211208190735_fcv.Designer.cs
+++20211208191316_avwdc.cs
+++20211208191316_avwdc.Designer.cs
+++EmpAttendance.cs
+i:{bd747cd5-9a15-4aa0-b12a-b01784a6897d}:c:\users\باقي الناس\desktop\hrsystem\hrsystem\hrsystem\models\empattendance.cs

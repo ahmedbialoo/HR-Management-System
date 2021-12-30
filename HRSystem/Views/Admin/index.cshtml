@@ -1,0 +1,155 @@
+﻿@model List<AttendenceEmployee>
+
+@{
+    ViewData["Title"] = "index";
+    var orderedModel = Model.OrderByDescending(n => n.Attendances.order);
+    var val = @ViewBag.validGroup;
+}
+
+
+         <div class="main-panel">
+            <div class="main-content">
+               <div class="content-wrapper">
+                  <div class="container-fluid">
+                     <section id="minimal-statistics-bg">
+                        <div class="row">
+                           <div class="col-12 mt-3 mb-1">
+                              <h2 class="content-header"> Welcome in Pioneer-solutions Dashboard .. </h2>
+                              <p class="content-sub-header">Statistics on minimal cards with background color.</p>
+                           </div>
+                        </div>
+                        <section id="basic-carousel">
+                           <div class="row">
+                              <div class="col-md-12 col-sm-12">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <div class="card-block">
+                                          <div id="carousel-example-caption" class="carousel slide" data-ride="carousel">
+                                             <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-caption" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-caption" data-slide-to="1"></li>
+                                                <li data-target="#carousel-example-caption" data-slide-to="2"></li>
+                                             </ol>
+                                             <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                   <img src="~/img/slide.PNG" alt="First slide">
+                                                </div>
+                                                  <div class="carousel-item">
+                                                   <img src="~/img/slide2.PNG" alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                   <img src="~/img/slide3.PNG" alt="Third slide">
+                                                </div>
+                                             </div>
+                                             <a class="carousel-control-prev" href="#carousel-example-caption" role="button" data-slide="prev">
+                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                             <span class="sr-only">Previous</span>
+                                             </a>
+                                             <a class="carousel-control-next" href="#carousel-example-caption" role="button" data-slide="next">
+                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                             <span class="sr-only">Next</span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </section>
+            
+                       
+                     </section>
+                     <!--Statistics cards Starts-->
+                @if (val.Emp_Edit == true)
+                {
+                    <div class="row ">
+                        <div class="col-12 col-md-12 col-xl-12" id="recent-sales">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title-wrap bar-primary">
+                                        <h4 class="card-title">Recent Activites</h4>
+                                    </div>
+                                    <a class="heading-elements-toggle">
+                                        <i class="la la-ellipsis-v font-medium-3"></i>
+                                    </a>
+                                </div>
+                                <div class="card-content mt-1">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-xl mb-0" id="recent-orders">
+                                            <thead>
+                                                <tr>
+                                                    <th class="border-top-0">Emplyee id </th>
+                                                    <th class="border-top-0">Employee Name </th>
+                                                    <th class="border-top-0">Date</th>
+                                                    <th class="border-top-0">Attendance time</th>
+                                                    <th class="border-top-0">check-out time</th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in orderedModel)
+                                                {
+                                                    var date = item.Attendances.Date.ToShortDateString();
+
+                                                    <tr>
+                                                        <td>
+                                                            <button class="btn btn-sm btn-outline-danger round mb-0" type="button">@Html.DisplayFor(modelItem=>item.Emp_Ssn)</button>
+                                                        </td> 
+                                                        <td class="text-truncate">@Html.DisplayFor(modelItem=>item.Employees.Emp_FullName)</td>     
+                                                        <td class="text-truncate">@Html.DisplayFor(modelItem=>date)</td>
+                                                        <td class="text-truncate">@Html.DisplayFor(modelItem=>item.Attendances.TimeAtt)</td>
+                                                        <td class="text-truncate">@Html.DisplayFor(modelItem=>item.Attendances.TimeLeave)</td>
+
+                                                    </tr>
+                                                }
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="card bg-info">
+                                <div class="card-body">
+                                    <div class="px-3 py-3">
+                                        <div class="row text-white">
+                                            <div class="col-6">
+                                                <h1><i class="fa fa-line-chart background-round text-white p-2 font-medium-3"></i></h1>
+                                                <h4 class="pt-1 m-0 text-white">@ViewBag.current_percent%</h4>
+                                                <span>@ViewBag.status</span>
+                                            </div>
+                                            <div class="col-6 text-right pl-0">
+                                                <h4 class="text-white mb-2">Attendance </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+               </div>
+            </div>
+            <footer class="footer footer-static footer-light">
+               <p class="clearfix text-muted text-center px-2"><span>Copyright  &copy; 2020 <a href="#" id="pixinventLink" target="_blank" class="text-bold-800 primary darken-2">Pioneer-solutions</a>, All rights reserved. </span></p>
+            </footer>
+         </div>
+
+@*
+
+         <h5 style="Display:None" id="spp">@ViewBag.ID</h5>
+         <script>
+             function hide(){
+                 var x = document.getElementById("spp").innerHTML;
+             if (x!=1){
+                 document.getElementById('hide').style.display='none';
+                 document.getElementById('hide2').style.display='none'
+             }
+             
+             }*@
+            
+         </script>

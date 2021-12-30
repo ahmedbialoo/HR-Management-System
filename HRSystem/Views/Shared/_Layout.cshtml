@@ -1,0 +1,163 @@
+﻿@using HRSystem.Models;
+<!DOCTYPE html>
+<html lang="en" class="loading">
+    <head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HRSystem.styles.css" asp-append-version="true" />
+@*    website *@
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <title>@ViewData["Title"] - HRSystem</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="~/img/ico/apple-icon-60.html">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/img/ico/apple-icon-76.html">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/img/ico/apple-icon-120.html">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/img/ico/apple-icon-152.html">
+    <link rel="shortcut icon" type="image/png" href="~/img/logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/fonts/feather/style.min.css">
+    <link rel="stylesheet" type="text/css" href="~/fonts/simple-line-icons/style.css">
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/css/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/css/chartist.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/app.css">
+  
+@*    website *@
+</head>
+
+
+
+ <body data-col="2-columns" class=" 2-columns" >
+   
+      <div class="wrapper"> 
+          
+@*    ------------------- Slider----------------*@
+
+<partial name="slider" />
+
+      @*    ------------------- header----------------*@
+
+      
+   <nav class="navbar navbar-expand-lg navbar-dark bg-faded">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <button type="button" data-toggle="collapse" class="navbar-toggle d-lg-none float-left"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><span class="d-lg-none navbar-right navbar-collapse-toggle"><a class="open-navbar-container"><i class="ft-more-vertical"></i></a></span>
+                 
+                  
+               </div>
+               <div class="navbar-container">
+                  <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                     <ul class="navbar-nav">
+                       
+
+
+                      <div class="dropdown-divider"></div><a asp-action="Logout" asp-Controller="Admin" class="dropdown-item"><i class="ft-power mr-2"></i><span>Logout</span></a>
+                            
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+
+                                                
+                                 
+                         
+        
+      @*    ------------------- Body----------------*@
+
+            @RenderBody()
+      </div>"
+       
+@* -------------  Rotating wheel ------------- *@       
+    <div class="customizer border-left-blue-grey border-left-lighten-4 d-none d-sm-none d-md-block"><a class="customizer-close"><i class="ft-x font-medium-3"></i></a><a id="customizer-toggle-icon" class="customizer-toggle bg-danger"><i class="ft-settings font-medium-4 fa fa-spin white align-middle"></i></a>
+      <div data-ps-id="df6a5ce4-a175-9172-4402-dabd98fc9c0a" class="customizer-content p-3 ps-container ps-theme-dark">
+        <h4 class="mb-0 text-bold-400">Theme Customizer</h4>
+        <p>Customize &amp; Preview in Real Time</p>
+        <hr>
+        <h6 class="text-center text-bold-500 mb-3 text-uppercase">Sidebar Background Image</h6>
+        <div class="cz-bg-image row">
+          <div class="col mb-3"><img src="~/img/sidebar-bg/01.jpg" width="50" height="100" alt="Bg image1" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/02.jpg" width="50" height="100" alt="Bg image2" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/03.jpg" width="50" height="100" alt="Bg image3" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/04.jpg" width="50" height="100" alt="Bg image4" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/05.jpg" width="50" height="100" alt="Bg image5" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/06.jpg" width="50" height="100" alt="Bg image6" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/07.jpg" width="50" height="100" alt="Bg image7" class="rounded box-shadow-2"></div>
+          <div class="col mb-3"><img src="~/img/sidebar-bg/08.jpg" width="50" height="100" alt="Bg image8" class="rounded box-shadow-2"></div>
+        </div>
+        <hr>
+        <div class="togglebutton">
+          <div class="switch"><span class="text-bold-400">Show / Hide Sidebar Bg Image</span>
+            <div class="float-right">
+              <div class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                <input id="sidebar-bg-img" type="checkbox" checked="" class="custom-control-input cz-bg-image-display">
+                <label for="sidebar-bg-img" class="custom-control-label"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h6 class="text-center text-bold-500 mb-3 text-uppercase">Sidebar Color Options</h6>
+        <div class="cz-bg-color">
+          <div class="row p-1">
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="aqua-marine" class="gradient-aqua-marine d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="sublime-vivid" class="gradient-sublime-vivid d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="crystal-clear" class="gradient-crystal-clear d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="timber" class="gradient-timber d-block rounded box-shadow-2"></span></div>
+          </div>
+          <div class="row p-1">
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="black" class="bg-black d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="white" class="bg-white d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="primary" class="bg-primary d-block rounded box-shadow-2"></span></div>
+            <div class="col mb-3"><span style="width:50px; height:100px;" data-bg-color="danger" class="bg-danger d-block rounded box-shadow-2"></span></div>
+          </div>
+        </div>
+        <hr>
+        <div class="togglebutton">
+          <div class="switch"><span class="text-bold-400">Compact Menu</span>
+            <div class="float-right">
+              <div class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+                <input id="cz-compact-menu" type="checkbox" class="custom-control-input cz-compact-menu">
+                <label for="cz-compact-menu" class="custom-control-label"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <label for="cz-sidebar-width" class="text-bold-400">Sidebar Width</label>
+          <select id="cz-sidebar-width" class="custom-select cz-sidebar-width float-right">
+            <option value="small">Small</option>
+            <option value="medium" selected="">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/vendors/js/core/jquery-3.3.1.min.js"></script>
+    <script src="~/vendors/js/core/popper.min.js"></script>
+    <script src="~/vendors/js/core/bootstrap.min.js"></script>
+    <script src="~/vendors/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/vendors/js/prism.min.js"></script>
+    <script src="~/vendors/js/jquery.matchHeight-min.js"></script>
+    <script src="~/vendors/js/screenfull.min.js"></script>
+    <script src="~/vendors/js/pace/pace.min.js"></script>
+    <script src="~/vendors/js/chartist.min.js"></script>
+    <script src="~/js/app-sidebar.js"></script>
+    <script src="~/js/notification-sidebar.js"></script>
+    <script src="~/js/customizer.js"></script>
+    <script src="~/js/dashboard-ecommerce.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+﻿@model List<Attendance>
+@{
+    ViewData["Title"] = "salaryreport";
+    List<Employee> emps = ViewBag.emps;
+    List<AttendenceEmployee> ats = ViewBag.ats;
+    List<string> days_names = ViewBag.days;
+}
+
+
+      <div class="main-panel">
+        <div class="main-content">
+          <div class="content-wrapper">
+            <div class="container-fluid"><!-- Zero configuration table -->
+<section id="configuration">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title-wrap bar-success">
+                        <h4 class="card-title">Salary report</h4>
+                    </div>
+                </div>
+                <div class="card-body collapse show">
+                    <div class="card-block card-dashboard">
+                        
+
+                            <div class="row"><div class="col-sm-12 col-md-3">
+                                    <div class="dataTables_length" id="DataTables_Table_0_length">
+                                        <label>Year
+                                            <select id="yearsel" name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control form-control-sm">
+                                                @for (var i = 2008; i < 2030; i++)
+                                                {
+                                                    <option value=@i>@i</option>
+                                                }
+                                            </select> 
+                                        </label>
+                                    </div>
+                            </div>
+                                    
+                            <div class="col-sm-12 col-md-3">
+                                <div class="dataTables_length" id="DataTables_Table_0_length">
+                                     <label>Month
+                                          <select id="monthsel" name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control form-control-sm">
+                                              @for (var i = 0; i < 12; i++)
+                                                {
+                                                  <option value=@(i+1)>@(i+1)</option>
+                                                }
+                                          </select> 
+                                     </label>
+                                </div>    
+                            </div>
+                           
+                            <div class="col-lg-3">
+                                 <button id="btn_show" type="submit" class="btn btn-primary mb-2"> <i class="ft-search"></i>&nbsp;
+                                      <a>Show</a>
+                                 </button>
+                            </div>
+                            <div id="div_container"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer footer-static footer-light">
+          <p class="clearfix text-muted text-center px-2"><span>Copyright  &copy; 2021 <a href="#" id="pixinventLink" target="_blank" class="text-bold-800 primary darken-2">Pioneer solutions </a>, All rights reserved. </span></p>
+        </footer>
+
+      </div>
+  
+@section scripts{
+    <script>
+        $("#btn_show").on("click",_=>{
+        y = $("#yearsel").val();
+        m = $("#monthsel").val();
+        var container = document.getElementById('div_container').innerHTML;
+        $.ajax({
+            type:"POST",
+            url:"@Url.Action("salaryDetails")",
+            data:{year:y , month:m},
+            success:(data)=>{
+                 
+               if(container =='')
+                {
+                   $("#div_container").append(data);
+                }
+                else
+                    {    
+                       document.getElementById('div_container').innerHTML='';
+                        $("#div_container").append(data);
+                    }
+            }
+        })
+        })
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth()+1;
+
+        var yearsel = document.getElementById('yearsel');
+
+        for(var i, j = 0; i = yearsel.options[j]; j++) {
+            if(i.value == year) {
+                yearsel.selectedIndex = j;
+                break;
+            }
+        }
+        for(var i, j = 0; i = monthsel.options[j]; j++) {
+            if(i.value == month) {
+                monthsel.selectedIndex = j;
+                break;
+            }
+        }
+    </script>
+}
